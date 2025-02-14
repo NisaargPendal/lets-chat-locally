@@ -41,8 +41,8 @@ A simple, self-hosted chat application where users can join a room by simply ent
    Clone the repository to your local machine or download the source files.
 
    ```bash
-   git clone https://github.com/yourusername/letschat-docker.git
-   cd letschat-docker
+   git clone https://github.com/NisaargPendal/lets-chat-locally.git
+   cd lets-chat-locally
    ```
 
 2. **Prepare the Environment**
@@ -50,6 +50,7 @@ A simple, self-hosted chat application where users can join a room by simply ent
    Create a directory for MongoDB data if it doesn’t already exist:
 
    ```bash
+   sudo su
    mkdir -p ./mongo-data
    ```
 
